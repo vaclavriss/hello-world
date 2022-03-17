@@ -1,0 +1,10 @@
+Compilation, Launch
+
+Program is compiled by using makefile. In makefile are defined these three commands:
+1) make
+This command compiles all modules in makefile directory file and creates binary code executable on MZAPO module.
+2) make clean
+Executing this command all .o files are removed from a directory. These files are created when program is compiled.   
+3) make run 
+Using this command 'make' command is executed. Then, if compaling succeed successfully, binary file is copied to MZAPO using ssh comunication. To run this command, you have to modifie target ip in makefile to connect with module. 
+
